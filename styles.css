@@ -1,0 +1,130 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap');
+
+/* element */
+body {
+	font-family: "Hind", sans-serif;
+	background: #171717;
+	color: #ffffff;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+p {
+	text-align: justify;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* id */
+#logo {
+	display: block;
+  	margin-left: auto;
+ 	margin-right: auto;
+ 	width: 25%;
+ 	padding-top: 1.5%;
+ 	padding-bottom: 1.5%;
+}
+
+#text-banner {
+	margin-top: 1.5%;
+	background-color: #cc0003;
+	font-family: arial black, sans-serif; 
+	font-size: 35px; 
+	color: #eedc30; 
+	text-align: center; 
+	text-shadow: 2px 2px 8px #121212;
+	text-wrap: wrap;
+	border-radius: 15px;
+}
+
+#shadow {
+	text-shadow: 1px 1px 2px #fff,
+	-1px 1px 2px #fff,
+    -1px -1px 2px #fff,
+    1px -1px 2px #fff;
+}
+
+#review {
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 2px solid #eedc30;
+	box-shadow: 2px 2px 10px #cc0003;
+}
+
+#chartext {
+	margin: 60px;
+	font-family: "Hind", sans-serif;
+	font-weight: bold;
+	text-shadow: 1px 1px 2px #fff,
+	-1px 1px 2px #fff,
+    -1px -1px 2px #fff,
+    1px -1px 2px #fff;
+}
+
+#chartext:hover {
+	text-shadow: 1px 1px 5px #cc0003;
+}
+
+#spotify {
+	color: #eedc30;
+	text-shadow: 1px 1px 5px #eedc30;
+	font-family: arial narrow, sans-serif;
+}
+
+#spotify:hover {
+	color: #cc0003;
+	text-shadow: 1px 1px 5px #cc0003;
+}
+
+#timestamp {
+	color: #9f9f9f; 
+	font-family: arial narrow, sans-serif;
+}
+
+#comment {
+	font-family: arial black, sans-serif;
+	font-size: 15px;
+	background-color: #cc0003;
+	color: #eedc30;
+	text-shadow: 1px 1px 4px #000,
+	-1px 1px 4px #000,
+    -1px -1px 4px #000,
+    1px -1px 4px #000;
+    width: 350px;
+    border-radius: 20px;
+}
+
+#mha {
+	width: 350px;
+	border-radius: 20px;
+	border: 2px solid #eedc30;
+	box-shadow: 2px 2px 10px #cc0003;
+}
+/* class */
+.banner {
+	background: url('deku-bakugou.avif');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 25px;
+}
+
+.characters {
+	align-items: center;
+    width: 175px;
+    height: 175px;
+    border-radius: 20%;
+    margin: 35px;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+
+.middle {
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: -250px;
+}
